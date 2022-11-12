@@ -32,11 +32,11 @@ function canConstructWord(word, letters) {
     if (lettersCount[char]) {
       lettersCount[char]--;
     } else {
-      return console.log(false);
+      return false;
     }
 
   }
-  return console.log(true);
+  return true;
 }
 
 canConstructWord("aa", "abc");
